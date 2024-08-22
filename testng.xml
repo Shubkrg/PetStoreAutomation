@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetSuite">
+	<!-- Listeners are TestNG annotations that literally “listen” to the events in a script and modify TestNG behavior accordingly. 
+	These listeners are applied as interfaces in the code. For example, the most common usage of listeners occurs when taking a screenshot of a test that has failed and the reason for its failure.
+	 Listeners also help with logging and generating results.-->
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportManager"></listener>
+	</listeners>
+  <test thread-count="5" name="PetTest">
+    <classes>
+      <class name="api.test.UserTests2"/>
+      <!--class name="api.test.DDTests"/>-->
+    </classes>
+  </test> <!-- PetTest -->
+</suite> <!-- PetSuite -->

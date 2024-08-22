@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-23T01:17:27 IST" name="PetSuite" finished-at="2024-08-23T01:17:36 IST" duration-ms="9007">
+    <groups>
+    </groups>
+    <test started-at="2024-08-23T01:17:27 IST" name="PetTest" finished-at="2024-08-23T01:17:36 IST" duration-ms="9007">
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests2@5ffead27]" started-at="2024-08-23T01:17:27 IST" name="setup" finished-at="2024-08-23T01:17:28 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@5ffead27]" started-at="2024-08-23T01:17:28 IST" name="testPostUser" finished-at="2024-08-23T01:17:31 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@5ffead27]" started-at="2024-08-23T01:17:31 IST" name="testGetUserByName" finished-at="2024-08-23T01:17:32 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests2@5ffead27]" started-at="2024-08-23T01:17:32 IST" name="testUpdateUserByName" finished-at="2024-08-23T01:17:35 IST" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests2@5ffead27]" started-at="2024-08-23T01:17:35 IST" name="testDeleteUserByName" finished-at="2024-08-23T01:17:36 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests2 -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetSuite -->
+</testng-results>
