@@ -1,0 +1,18 @@
+
+Day-3
+...............
+
+Create own API
+Step1)
+NodeJS
+npm-node package manager
+
+node--version
+npm-version
+
+
+step2)Json-Server
+
+run the below command in the cmd/terminal
+
+npm install -g json-server

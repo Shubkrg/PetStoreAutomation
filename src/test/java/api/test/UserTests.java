@@ -4,7 +4,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 import com.github.javafaker.Faker;
+
 import api.endpoints.UserEndPoints;
 import api.payload.User;
 import io.restassured.response.Response;

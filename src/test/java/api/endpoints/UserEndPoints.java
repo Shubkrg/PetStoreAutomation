@@ -8,28 +8,41 @@ import io.restassured.response.Response;
 
 //UserEndpoint
 //Create for perform Create,Read,Update,Delete request the user API.
+//we do here CRUD operation.
 
 public class UserEndPoints {
 
+	
+	
 	public static Response createUser(User payload) {
-		Response response = RestAssured.given().contentType(ContentType.JSON).accept(ContentType.JSON).body(payload)
+		Response response = RestAssured.given()
+				.contentType(ContentType.JSON)
+				.accept(ContentType.JSON)
+				.body(payload)
 
-				.when().post(Routes.post_url);
+				.when()
+				.post(Routes.post_url);
 
 		return response;
 	}
 
 	public static Response readUser(String userName) {
 
-		Response response = RestAssured.given().pathParam("username", userName).when().get(Routes.get_url);
+		Response response = RestAssured.given()
+				.pathParam("username", userName)
+				.when()
+				.get(Routes.get_url);
 
 		return response;
 
 	}
 
 	public static Response updateUser(String userName, User payload) {
-		Response response = RestAssured.given().contentType(ContentType.JSON).accept(ContentType.JSON)
-				.pathParam("username", userName).body(payload)
+		Response response = RestAssured.given()
+				.contentType(ContentType.JSON)
+				.accept(ContentType.JSON)
+				.pathParam("username", userName)
+				.body(payload)
 
 				.when().put(Routes.update_url);
 		return response;

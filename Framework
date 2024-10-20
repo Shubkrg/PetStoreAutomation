@@ -1,0 +1,36 @@
+pre-Requisites....
+
+Step1:Create Maven Project
+Step2:update POM.xml with required Dependencies
+Step3:Create Folder Structure
+..............................................................
+Step4:Create Routes.java->contains URLs
+Step5:Create UserEndPoint.java-->CRUD methods implementation
+Step6:create test cases
+................................................
+Step7:Create data driven test
+      excel sheet data
+      Excelutilility
+      dataproviders
+Step8:Generate extent reports 
+      Extent reportutily
+      testng.xml
+      
+Step9:Add log file
+      log4j2 dependency
+      log4j.xml-->src/test/resource
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+*Extent Reports is an open-source library that is used to create test reports for automated testing  
+*Log4j is a logging framework developed by the Apache Software Foundation. As the name suggests, Log4J is a logger. 
+It records important information like error messages and user inputs in a program    
