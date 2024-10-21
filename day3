@@ -16,3 +16,32 @@ step2)Json-Server
 run the below command in the cmd/terminal
 
 npm install -g json-server
+
+
+......................................
+
+DAy 4
+
+1.Execute tests using pom.xml within eclipse
+2.Execute tests using pom.xml in cmd
+3.commit code in local repository(git)
+4.push ur code to remote repository(github)
+5. Run project in jenkin(from git github)
+................................................................
+
+pre-requiste...
+
+1.install git s/w
+2.create an account with github.........
+...........................................................
+
+working project location:E:\QA_Project\Automation
+.
+
+1.git init------> create local repository
+2.git config --global user.name "your name"
+  git config --global user.email "".
+  
+3.git status
+4.git add -A(add all files to staging area.)
+
